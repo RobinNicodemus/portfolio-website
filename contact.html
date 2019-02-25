@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>My Portfolio Skeleton</title>
+		<link rel="icon" type="image/png" href="img/favicon-32x32.png">
+		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto&amp;subset=latin-ext" rel="stylesheet"> 
+		<link rel="stylesheet" type="text/css" href="css/style.production.css">
+	</head>
+
+	<header class="page-header">
+			<img src="img/logo_prototype.png" alt="Logo" class="page-header__item page-header__logo" >
+			<nav role="navigation" class="page-header__item main-navigation">
+				<ul role="menubar" class="navigation-list">
+						<li><a href="index.html" role="menuitem" class="navigation-list__item">Home</a></li>
+						<li><a href="about.html" role="menuitem" class="navigation-list__item">About Me</a></li>
+						<li><a href="contact.html" role="menuitem" class="navigation-list__item" id="navigation-list__item--active">Contact</a></li>
+						<li><a href="work.html" role="menuitem" class="navigation-list__item">Work</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<main>
+			<div class="contact-main">
+				<img src="img/portrait.png" class="contact-main__item profile-image" alt="Portrait of a nice and very professional looking person" >
+				<div class="contact-main__item contact-main__list">
+					<h1>Hit me up!</h1>
+					<ul>
+						<li>
+							Tel: <a href="tel:+4917638829948">0176 388 299 48</a>
+						</li>
+						<li>
+							Skype: <a href="skype:">placeholder</a>
+						</li>
+						<li>
+							Mail: <a href="mailto:nicodemusnepomuk@gmail.com">nicodemusnepomuk@gmail (dot) com</a>
+						</li>
+					</ul>
+				</div> 
+			</div>
+			<div>
+
+
+				<form id="contact-form">
+	  			
+						<label for="emailbox">Your Email:</label>
+						<input type="email" id="emailbox" required="required" value="yourmail@provider.com">
+					
+						<label for="phonebox">Your Phone Number:</label>
+						<input type="tel" id="phonebox" value="0111 23456789"> 
+					
+				  	<label for="textbox" id="contact-form__tb-label">Your Message:</label>
+						<textarea id="textbox contact-form__tb" required="required">Your Message</textarea>
+					
+					<input type="submit" value="Submit" class="pseudobutton" >
+
+				  
+				</form>
+			</div>
+		</main>
+
+
+		<footer class="profile__footer">
+			<p>Find me on</p>
+			<div class="social-media-nav">
+  		<a href="#" class="social-media-nav__item">
+  			<img src="img/icon_github_black.svg" alt="Icon of Github"/>
+  		</a>
+  		<a href="#" class="social-media-nav__item">
+  			<img src="img/icon_twitter_black.svg" alt="Icon of Twitter"/>
+  		</a>
+  		<a href="#" class="social-media-nav__item">
+  			<img src="img/icon_linkedin_black.svg" alt="Icon of LinkedIn"/>
+  		</a>
+  	</div>
+		</footer>
+		<script src="js/tota11y.min.js"></script>
+	</body>
+
+</html>
