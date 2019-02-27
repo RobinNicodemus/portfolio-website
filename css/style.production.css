@@ -1,6 +1,9 @@
 :root { /*#99a9af;*/  /*#2b2b2b;*//*#27a5da;*/
 }
 /*General Styles*/
+html {
+	height: 100%
+}
 
 * {
 	background-color:  #D7CECE;
@@ -43,12 +46,16 @@ body {
     font-family: 'Montserrat','Roboto',S sans-serif;
 	font-size: 16px;
 	line-height: 2em;
-	min-height: 100%;
 	margin: 0;
+	position: relative;
+	min-height: 100%;
+	padding-bottom: 100px;
 }
 
 
 footer {
+	position: absolute;
+	bottom: 0px;
 	clear: both;
 	font-size: 18px;
 	text-align: center;
@@ -269,6 +276,8 @@ footer {
 
 /*about animation*/
 .skyline-graphic {
+	overflow: visible;
+	z-index: 10;
 	height: 500px;
 	width: 100%;
 	margin-top: -90px;
@@ -334,6 +343,9 @@ footer {
 #about-footer {
 	margin-top: -130px;
 }
+#about-footer > * {
+	background-color: transparent;
+}
 
 .about-footer__icon {
 	opacity: 0.6;
@@ -366,8 +378,8 @@ footer {
 }
 
 #contact-form > *:nth-child(1) {
- -ms-grid-row:  1;
- -ms-grid-column:  1;
+ -ms-grid-row: 1;
+ -ms-grid-column: 1;
 }
 
 .work-main {
