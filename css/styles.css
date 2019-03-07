@@ -410,6 +410,32 @@ button:focus,
 
 /* End Buttons and Links */
 
+/* ---------------------------------
+TODO: all below to be sorted:
+--------------------------------- */
+
+/* About Page Specific */
+td,
+th {
+	text-align: center;
+}
+
+th {
+	font-size: var(--fontSizeStrong);
+}
+
+/* End About Page Specific */
+
+.call-to-action {
+	padding: 15px 30px;
+	color: #fff;
+	opacity: 1;
+}
+
+/* ---------------------------------
+TODO: all above to be sorted:
+--------------------------------- */
+
 /* Resposivity */
 
 @media all and (max-width: 500px) {
@@ -420,14 +446,39 @@ button:focus,
 	}
 
 	body {
-		padding: 0 10px;
+		padding: 0 1em;
 		font-size: var(--fontSizeWeak);
+		line-height: auto;
 	}
 
 	h1 {
-        font-size: 24px;
+        font-size: var(--fontSizeWeak);
     }
 
+    table { 
+    	width: 100%; 
+    }
+
+	th {
+		font-size: var(--fontSizeWeak);
+	}
+
+	.about-main__text > ul {
+		display: flex;
+		flex-flow: column nowrap;
+		align-items: flex-start;
+	}
+
+	.about-main__text > ul > li {
+		width: 100%;
+		list-style-type: none;
+		text-align: left;
+		margin: 0.3em auto;
+	}
+/*	.about-main__text > ul > li > a {
+		display: inline-block;
+	}
+*/
 
 .navigation-list {
 	display: flex;
@@ -544,6 +595,7 @@ button:focus,
 	min-height: 60px;
 	height: 60px;
 	margin-bottom: 0.3em;
+	z-index: 2;
 }
 
 .page-header__item {
@@ -590,6 +642,7 @@ button:focus,
 		margin-right: 1em;
 		text-transform: uppercase;
 		font-weight: bold;
+		border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 	}
 
 
@@ -599,30 +652,24 @@ button:focus,
 
 
 .contact-main > img {
-	display: none;
+	display: none
 }
+
+.contact-main__list > ul {
+	display: flex;
+	flex-flow: column nowrap;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.contact-main__list > ul > li {
+	margin: 0.5em;
+}
+
+.contact-main__list > ul > li > a {
+	z-index: 
+}
+
 }
 
 /* End Responsivity */
-
-/* ---------------------------------
-TODO: all below to be sorted:
---------------------------------- */
-
-/* About Page Specific */
-td,
-th {
-	text-align: center;
-}
-
-th {
-	font-size: var(--fontSizeStrong);
-}
-
-/* End About Page Specific */
-
-.call-to-action {
-	padding: 15px 30px;
-	color: #fff;
-	opacity: 1;
-}
