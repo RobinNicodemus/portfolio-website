@@ -442,7 +442,6 @@ TODO: all above to be sorted:
 	* {
 		margin: 0;
 		padding: 0;
-		text-align: center;
 	}
 
 	html {
@@ -459,7 +458,11 @@ TODO: all above to be sorted:
 	}
 
 	h1 {
-        font-size: var(--fontSizeWeak);
+        font-size: var(--fontSizeBase);
+    }
+
+    h2 {
+    	font-size: var(--fontSizeWeak);
     }
 
     table { 
@@ -492,16 +495,17 @@ TODO: all above to be sorted:
 		align-items: flex-start;
 	}
 
-	.about-main__text > ul > li {
+	.about-main__text > ul > li,
+	.contact-main__list > ul > li {
 		width: 100%;
 		list-style-type: none;
 		text-align: left;
 		margin: 0.3em auto;
 	}
-/*	.about-main__text > ul > li > a {
-		display: inline-block;
-	}
-*/
+
+	#contact-form {
+    justify-content: center;
+}
 
 .navigation-list {
 	display: flex;
@@ -569,7 +573,7 @@ TODO: all above to be sorted:
 
 	.page-header__toggle:hover,
 	.page-header__toggle:focus {
-		background-color: red;
+		box-shadow: 0 0 3px var(--secColor);
 	}
 
 	#drop:checked + nav {
@@ -599,6 +603,12 @@ TODO: all above to be sorted:
 	    max-height: 250px;
 	    max-width: 250px;
 }	
+
+	.work-main {
+		width: 100%;
+		padding: 0 0.5em;
+	}
+
     .work-main-grid {
         grid-template-columns: 1fr;
         grid-gap: 10px;
