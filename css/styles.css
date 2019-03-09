@@ -452,9 +452,10 @@ TODO: all above to be sorted:
 	body {
 		font-size: var(--fontSizeWeak);
 		line-height: auto;
-		position: static;
+		position: relative;
 		padding-bottom: 0;
-
+		min-height: 100%;
+		padding-bottom: 100px;
 	}
 
 	h1 {
@@ -479,7 +480,7 @@ TODO: all above to be sorted:
 
 	footer {
 	margin-top: 2em;
-	position: static;
+	position: absolute;
 	bottom: 0;
 	clear: both;
 	font-size: var(--fontSizeWeak);
