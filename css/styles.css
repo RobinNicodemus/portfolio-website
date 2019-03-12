@@ -688,6 +688,10 @@ TODO: all above to be sorted:
 		display: inline-block;
 	}
 
+	.skyline-graphic {
+		height: auto;
+		width: 100%;
+	}
 
 	.contact-main > img {
 		display: none
