@@ -450,7 +450,8 @@ TODO: all above to be sorted:
 
 /* Resposivity */
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 500px),
+ handheld and (orientation: portrait) {
 	* {
 		margin: 0;
 		padding: 0;
