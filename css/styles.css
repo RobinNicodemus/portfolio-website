@@ -590,11 +590,11 @@ TODO: all above to be sorted:
 		width: 100%;
 	}
 
-    .profile, {
+    .profile {
     	display: flex;
     	flex-flow: column nowrap;
     	align-items: center;
-    	margin: 70px auto;
+    	text-align: center;
     }
 
     .main {
@@ -606,7 +606,7 @@ TODO: all above to be sorted:
 	    border-radius: 50%;
 	    margin-right: 0;
 	    max-height: 250px;
-		   max-width: 250px;
+		max-width: 250px;
 	}	
 
 	.work-main {
