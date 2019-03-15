@@ -46,11 +46,13 @@ ul {
 	padding-left: 0;
 }
 
-input, textarea {
+input,
+textarea {
 	padding: 0.7em;
 	border: none;
   	border-radius: 5px;
-  	box-shadow: inset 3px 3px 1px #999, 
+  	box-shadow:
+			inset 3px 3px 1px #999,
   		inset -3px -3px 1px #f5f5dc;
 }
 
@@ -470,7 +472,7 @@ TODO: all above to be sorted:
 
 	body {
 		font-size: var(--fontSizeWeak);
-		line-height: auto;
+		line-height: normal;
 		position: static;
 		padding-bottom: 0;
 		min-height: 100%;
@@ -495,12 +497,12 @@ TODO: all above to be sorted:
         font-size: var(--fontSizeBase);
     }
 
-    h2 {
+  h2 {
     	font-size: var(--fontSizeWeak);
     }
 
-    table { 
-    	width: 100%; 
+  table {
+    	width: 100%;
     }
 
 	th {
@@ -549,11 +551,10 @@ TODO: all above to be sorted:
 		display: inline-block;
 		border-right: none;
 		border-left: none;
-		line-height: 3em; 
+		line-height: 3em;
 		width: auto;
-		color: #fff;
 		font-size: var(--fontSizeStrong);
-		font-weight: var(--fontWeightBig);
+		font-weight: var(--fontWeight);
 		text-decoration: none;
 		letter-spacing: 0.2em;
 		text-transform: uppercase;
@@ -582,7 +583,6 @@ TODO: all above to be sorted:
 		font-size: var(--fontSizeStrong);
 		font-weight: var(--fontWeightBig);
 	}
-
 
     .navigation-list__item,
     .main-navigation {
@@ -620,23 +620,23 @@ TODO: all above to be sorted:
 	    margin-right: 0;
 	    max-height: 250px;
 		max-width: 250px;
-	}	
+	}
 
 	.work-main {
 		width: 100%;
 		padding: 0 0.5em;
 	}
 
-    .work-main-grid {
+  .work-main-grid {
         grid-template-columns: 1fr;
         grid-gap: 10px;
-    }
+  }
 
-    .work-main-grid__item:last-child {
+  .work-main-grid__item:last-child {
         grid-column: auto / auto;
         grid-row: auto / auto;
         padding-bottom: 1em;
-    }
+  }
 
 	.page-header {
   	width: 100%;
@@ -682,21 +682,19 @@ TODO: all above to be sorted:
 		width: 60px;
 		height: 60px;
 		line-height: 60px;
-		font-weight: var(--fontSizeStrong);
-		font-size: var(--fontWeightBig);
+		font-weight: var(--fontWeightBig);
+		font-size: var(--fontSizeStrong);
 		z-index: 1;
 		cursor: pointer;
 		color: var(--primColor);
 		background-color: var(--tertColor);
 		top: 0;
 		right: 0;
-		border-radius: 50%; 
+		border-radius: 50%;
 		margin-right: 1em;
 		text-transform: uppercase;
-		font-weight: bold;
 		border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 	}
-
 
 	.page-header__logo {
 		display: inline-block;
@@ -708,26 +706,25 @@ TODO: all above to be sorted:
 	}
 
 	.contact-main > img {
-		display: none
+		display: none;
 	}
 
 	.contact-main {
 		display: flex;
 		flex-flow: column nowrap;
-	    align-items: center; 
+	  align-items: center;
 	}
 
 	.contact-main__list > ul {
 		display: flex;
 		flex-flow: column nowrap;
-	    align-items: center; 
-	    justify-content: space-between;
+	  align-items: center;
+	  justify-content: space-between;
 	}
 
 	.contact-main__list > ul > li {
 		margin: 0.5em;
 	}
-
 }
 
 /* End Responsivity */
