@@ -211,7 +211,8 @@ footer {
 
 .profile,
 .about-main,
-.contact-main {
+.contact-main,
+.contact-grid  {
 	max-width: 700px;
 	margin: 80px auto;
 }
@@ -304,10 +305,14 @@ footer {
 
 #contact-form {
 	display: grid;
-	grid-template-columns: 1;
-	grid-template-rows: 8;
+	grid-template-columns: 1fr;
+	grid-template-rows: 8fr;
 	justify-content: center;
 	align-content: flex-start;
+}
+
+.contact-grid {
+	padding: 0 5% 0 5%;
 }
 
 .work-main {
