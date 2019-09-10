@@ -6,9 +6,9 @@
 		<title>Robin Dippold Portfolio</title>
 		<link rel="icon" type="image/png" href="img/favicon-32x32.png">
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto&amp;subset=latin-ext" rel="stylesheet"> 
-		<link rel="stylesheet" type="text/css" href="css/style.production.css">
-		<!-- <link rel="stylesheet" type="text/css" href="css/styles.css">	 -->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto&amp;subset=latin-ext" rel="stylesheet">
+		<!-- <link rel="stylesheet" type="text/css" href="css/style.production.css"> -->
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
 	</head>
 
 	<header class="page-header">
@@ -39,25 +39,25 @@
 							Mail: <a href="mailto:nicodemusnepomuk@gmail.com">nicodemusnepomuk@gmail (dot) com</a>
 						</li>
 					</ul>
-				</div> 
+				</div>
 			</div>
 			<div>
 
 
 				<form id="contact-form">
-	  			
-						<label for="emailbox">Your Email:</label>
-						<input type="email" id="emailbox" required="required" value="yourmail@provider.com">
-					
-						<label for="phonebox">Your Phone Number:</label>
-						<input type="tel" id="phonebox" value="0111 23456789"> 
-					
-				  	<label for="textbox" id="contact-form__tb-label">Your Message:</label>
-						<textarea id="textbox" required="required">Your Message</textarea>
-					
-					<input type="submit" value="Submit" class="pseudobutton" >
-
-				  
+						<div class="email-wrapper contact-form__child">
+							<label for="emailbox">Your Email:</label>
+							<input type="email" id="emailbox" required="required" value="yourmail@provider.com">
+						</div>
+						<div class="phone-wrapper contact-form__child">
+							<label for="phonebox">Your Phone Number:</label>
+							<input type="tel" id="phonebox" value="0111 23456789">
+						</div>
+						<div class="phone-wrapper contact-form__child">
+					  	<label for="textbox" id="contact-form__tb-label">Your Message:</label>
+							<textarea id="textbox" required="required">Your Message</textarea>
+						</div>
+					<input type="submit" value="Submit" class="pseudobutton contact-form__child" >
 				</form>
 			</div>
 		</main>
@@ -78,6 +78,7 @@
   	</div>
 		</footer>
 		<script src="js/tota11y.min.js"></script>
+		<script src="js/scripts.js"></script>
 	</body>
 
 </html>

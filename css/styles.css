@@ -284,10 +284,17 @@ footer {
 
 #contact-form {
 	display: grid;
-	grid-template-columns: 1;
-	grid-template-rows: 8;
 	justify-content: center;
 	align-content: flex-start;
+}
+
+#contact-form > div {
+	display: grid;
+}
+
+.error-message {
+	color: red;
+	font-size: var(--fontSizeWeak);
 }
 
 .work-main {
