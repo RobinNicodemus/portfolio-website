@@ -329,7 +329,7 @@ footer {
 .work-main-grid__item,
 .work-main-grid__item > *,
 .work-main-grid__item > * > * {
-	background-color: lightgrey;
+	background-color: rgba(0,0,0,0);
 }
 
 .work-main-grid__item:last-child {
@@ -450,6 +450,148 @@ th {
 	color: #fff;
 	opacity: 1;
 }
+
+.myflix {
+	background-image: url("../img/screenshot_myflix.png");
+	background-size: cover;
+    background-position-x: center;
+}
+
+.angular-quiz {
+	background-image: url("../img/screenshot_angular-quiz.png");
+	background-size: cover;
+    background-position-x: center;
+}
+
+.vuedolist {
+	background-image: url("../img/screenshot_vuedolist.png");
+	background-size: cover;
+    background-position-x: center;
+}
+
+.pokedex {
+	background-image: url("../img/screenshot_pokedex.png");
+	background-size: cover;
+    background-position-x: center;
+}
+
+.stack-list {
+	display: flex;
+    flex-wrap: wrap;
+    flex-flow: wrap-reverse;
+    align-items: flex-end;
+    justify-content: flex-end;
+	padding: 0 0.5rem;
+	position: absolute;
+	bottom: 2.5rem;
+	right: 0;
+}
+
+.stack-item {
+	border: 1px solid #4D96A8;
+    background-color: yellowgreen;
+    border-radius: 3px;
+    margin-left: 0.2rem;
+    margin-bottom: 0.2rem;
+    padding: 0 3px;
+    font-size: smaller;
+    font-weight: 700;
+}
+
+.work-main-grid__item:not(:last-child) > h2 {
+	text-align: center;
+    background-color: rgba(0,0,0,0.8);
+    font-weight: bold;
+    padding: 0.5em 0;
+	color: #4D96A8;
+
+}
+.work-main-grid__item:not(:last-child) {
+	position: relative;
+	transition: all 0.1s linear;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.work-main-grid__item:not(:last-child) > p {
+	color: white;
+    margin-bottom: 10em;
+    padding: 20px 10px;
+	background-color: rgba(0,0,0, 0.5);
+	text-shadow: #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px, #000 0px 0px 1px;
+
+}
+
+.work-link_github {
+	color: var(--textColor);
+	text-align: right;
+    padding: 0 1em;
+    font-weight: 600;
+    background-color: #4D96A8;
+    border-radius: 5px;
+	opacity: 1;
+}
+
+.link_no_deco {
+	text-decoration: none;
+	color: var(--tertColor);
+	opacity: 1;
+	background-color: rgba(0, 0, 0, 0);
+	transition: all 0.5s ease-in-out;
+}
+
+.link_no_deco > *,
+.link_no_deco > * > * {
+	text-decoration: none;
+}
+
+.link_no_deco:visited {
+	text-decoration: none;
+	color: var(--textColor);
+	opacity: 1;
+  }
+
+.link_no_deco:hover,
+.link_no_deco:focus {
+	text-decoration: none;
+	  color: var(--textColor);
+
+  }
+
+.work-main-grid__item:not(:last-child):hover,
+.work-main-grid__item:not(:last-child):focus {
+	transform: scale(1.02);
+}
+
+
+.link_no_deco:active {
+	text-decoration: none;
+	color: var(--textColor);
+  }
+
+.layered_links {
+	position: relative;
+}
+
+.link_first-layer,
+.link_second-layer {
+	position: absolute;
+}
+
+.link_first-layer {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.link_second-layer {
+	right: 0.5rem;
+bottom: 0.5rem;
+opacity: 1;
+  }
+
+
 
 /* ---------------------------------
 TODO: all above to be sorted:
