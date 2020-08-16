@@ -598,6 +598,12 @@ th {
     background-position-x: center;
 }
 
+.meetup {
+	background-image: url("../img/screenshot_meetup.png");
+	background-size: cover;
+    background-position-x: center;
+}
+
 .stack-list {
 	display: -webkit-box;
 	display: -ms-flexbox;

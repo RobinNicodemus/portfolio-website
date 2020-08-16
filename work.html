@@ -1,116 +1,144 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta charset="utf-8">
-		<title>Robin Dippold Portfolio</title>
-		<link rel="icon" type="image/png" href="img/favicon-32x32.png">
-		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto&amp;subset=latin-ext" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="css/style.production.css">
-		<!-- <link rel="stylesheet" type="text/css" href="css/styles.css"> -->
-	</head>
 
-	<body>
-		<header class="page-header">
-			<img src="img/logo_prototype.png" alt="Logo" class="page-header__item page-header__logo">
-			<label for="drop" class="page-header__item page-header__toggle">{ . . . }</label>
-        	<input type="checkbox" id="drop" />
-			<nav class="page-header__item main-navigation">
-				<ul role="menubar" class="navigation-list">
-						<li><a href="index.html" role="menuitem" class="navigation-list__item">Home</a></li>
-						<li><a href="about.html" role="menuitem" class="navigation-list__item">About Me</a></li>
-						<li><a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a></li>
-						<li><a href="work.html" role="menuitem" class="navigation-list__item" id="navigation-list__item--active">Work</a></li>
-				</ul>
-			</nav>
-		</header>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<title>Robin Dippold Portfolio</title>
+	<link rel="icon" type="image/png" href="img/favicon-32x32.png">
+	<link rel="stylesheet" type="text/css"
+		href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto&amp;subset=latin-ext"
+		rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.production.css">
+	<!-- <link rel="stylesheet" type="text/css" href="css/styles.css"> -->
+</head>
 
-		<div class="footer-fix">
-			<section class="work-main main">
-				<h1>My Work</h1>
-				<div class="work-main-grid">
-					<div class="work-main-grid__item pokedex">
-						<h2>Javascript Pokedex</h2>
-						<p>Read about your favorite Pokemon in this pure javascript pokédex. All data is collected from PokéAPI.
-						</p>
-						<ul class="stack-list">
-							<li class="stack-item">Vanilla Javascript</li>
-							<li class="stack-item">CSS</li>
-							<li class="stack-item">HTML</li>
-						</ul>
-						<a class="link_no_deco link_first-layer" target="_blank"
-							href="https://robinnicodemus.github.io/JS-Pokedex/"></a>
-						<a class="link_second-layer work-link_github" target="_blank"
-							href="https://github.com/RobinNicodemus/JS-Pokedex/">...see project on github</a>
-					</div>
-					<div class="work-main-grid__item myflix">
-						<h2>myFlix API and Client</h2>
-						<p>Create your profile and browse movies, directors and genres. And save your favorites for the next
-							visit!</p>
-						<ul class="stack-list">
-							<li class="stack-item">MongoDB</li>
-							<li class="stack-item">Node.js</li>
-							<li class="stack-item">Bootstrap</li>
-							<li class="stack-item">React</li>
-							<li class="stack-item">React-redux</li>
-						</ul>
-						<a class="link_no_deco link_first-layer" target="_blank"
-							href="https://radiant-flix.herokuapp.com/client/"></a>
-						<a class="link_second-layer work-link_github" target="_blank"
-							href="https://github.com/RobinNicodemus/myFlix">...see project on github</a>
-					</div>
-					<div class="work-main-grid__item vuedolist">
-						<h2>Vue To Do List</h2>
-						<p>Keep track of your chores and projects with this Vue based To Do App. Create as many tasks as you
-							wish. Edit them. Delete them. Check them off. Feel productive!</p>
-						<ul class="stack-list">
-							<li class="stack-item">Material Design</li>
-							<li class="stack-item">Vue.js</li>
-						</ul>
-						<a class="link_no_deco link_first-layer" target="_blank"
-							href="https://robinnicodemus.github.io/Vue-To-Do/"></a>
-						<a class="link_second-layer work-link_github" target="_blank"
-							href="https://github.com/RobinNicodemus/Vue-To-Do/">...see project on github</a>
-					</div>
-					<div class="work-main-grid__item angular-quiz layered_links">
-						<h2>Angular Quiz App</h2>
-						<p>Choose from a variety of topics to test your knowledge. Free feedback included!</p>
-						<ul class="stack-list">
-							<li class="stack-item">Angular Bootstrap</li>
-							<li class="stack-item">Angular</li>
-							<li class="stack-item">Typescript</li>
-						</ul>
-						<a class="link_no_deco link_first-layer" target="_blank"
-							href="https://angular-quiz-app-ebab4.web.app/welcome"></a>
-						<a class="link_second-layer work-link_github" target="_blank"
-							href="https://github.com/RobinNicodemus/Angular-Quiz-App">...see project on github</a>
-					</div>
-					<div class="work-main-grid__item">
-						<h2>Your Project?</h2>
-						<p>You have an amazing idea, but need someone to make it happen? Don't hesitate to let me know! I'd love
-							to talk about the next big thing with you. Or the next ordinary thing, or the renewed old thing,
-							that you want to keep up to date. If you love it, i love it, and together we can make it happen!.
-						</p>
-						<a href="mailto:nicodemusnepomuk@gmail.com" id="work-cta__pseudobutton"
-							class="call-to-action pseudobutton">Contact me :)</a>
-					</div>
-			</section>
+<body>
+	<header class="page-header">
+		<img src="img/logo_prototype.png" alt="Logo" class="page-header__item page-header__logo">
+		<label for="drop" class="page-header__item page-header__toggle">{ . . . }</label>
+		<input type="checkbox" id="drop" />
+		<nav class="page-header__item main-navigation">
+			<ul role="menubar" class="navigation-list">
+				<li><a href="index.html" role="menuitem" class="navigation-list__item">Home</a></li>
+				<li><a href="about.html" role="menuitem" class="navigation-list__item">About Me</a></li>
+				<li><a href="contact.html" role="menuitem" class="navigation-list__item">Contact</a></li>
+				<li><a href="work.html" role="menuitem" class="navigation-list__item"
+						id="navigation-list__item--active">Work</a></li>
+			</ul>
+		</nav>
+	</header>
 
-			<footer class="profile__footer">
-				<p>Find me on</p>
-				<div class="social-media-nav">
-			  		<a href="#" class="social-media-nav__item">
-			  			<img src="img/icon_github.svg" alt="See my projects on Github"/>
-			  		</a>
-			  		<a href="#" class="social-media-nav__item">
-			  			<img src="img/icon_stackoverflow.svg" alt="See my profile on Stackoverflow"/>
-			  		</a>
-			  		<a href="#" class="social-media-nav__item">
-			  			<img src="img/icon_linkedin.svg" alt="Find me on Linkedin"/>
-			  		</a>
-	  			</div>
-			</footer>
-		</div>
-	</body>
+	<div class="footer-fix">
+		<section class="work-main main">
+			<h1>My Work</h1>
+			<div class="work-main-grid">
+				<div class="work-main-grid__item pokedex">
+					<h2>Javascript Pokedex</h2>
+					<p>Read about your favorite Pokemon in this pure javascript pokédex. All data is collected from
+						PokéAPI.
+					</p>
+					<ul class="stack-list">
+						<li class="stack-item">Vanilla Javascript</li>
+						<li class="stack-item">CSS</li>
+						<li class="stack-item">HTML</li>
+					</ul>
+					<a class="link_no_deco link_first-layer" target="_blank"
+						href="https://robinnicodemus.github.io/JS-Pokedex/"></a>
+					<a class="link_second-layer work-link_github" target="_blank"
+						href="https://github.com/RobinNicodemus/JS-Pokedex/">...see project on github</a>
+				</div>
+				<div class="work-main-grid__item myflix">
+					<h2>myFlix API and Client</h2>
+					<p>Create your profile and browse movies, directors and genres. And save your favorites for the next
+						visit!</p>
+					<ul class="stack-list">
+						<li class="stack-item">MongoDB</li>
+						<li class="stack-item">Node.js</li>
+						<li class="stack-item">Bootstrap</li>
+						<li class="stack-item">React</li>
+						<li class="stack-item">React-redux</li>
+					</ul>
+					<a class="link_no_deco link_first-layer" target="_blank"
+						href="https://radiant-flix.herokuapp.com/client/"></a>
+					<a class="link_second-layer work-link_github" target="_blank"
+						href="https://github.com/RobinNicodemus/myFlix">...see project on github</a>
+				</div>
+				<div class="work-main-grid__item vuedolist">
+					<h2>Vue To Do List</h2>
+					<p>Keep track of your chores and projects with this Vue based To Do App. Create as many tasks as you
+						wish. Edit them. Delete them. Check them off. Feel productive!</p>
+					<ul class="stack-list">
+						<li class="stack-item">Material Design</li>
+						<li class="stack-item">Vue.js</li>
+					</ul>
+					<a class="link_no_deco link_first-layer" target="_blank"
+						href="https://robinnicodemus.github.io/Vue-To-Do/"></a>
+					<a class="link_second-layer work-link_github" target="_blank"
+						href="https://github.com/RobinNicodemus/Vue-To-Do/">...see project on github</a>
+				</div>
+				<div class="work-main-grid__item angular-quiz layered_links">
+					<h2>Angular Quiz App</h2>
+					<p>Choose from a variety of topics to test your knowledge. Free feedback included!</p>
+					<ul class="stack-list">
+						<li class="stack-item">Angular Bootstrap</li>
+						<li class="stack-item">Angular</li>
+						<li class="stack-item">Typescript</li>
+					</ul>
+					<a class="link_no_deco link_first-layer" target="_blank"
+						href="https://angular-quiz-app-ebab4.web.app/welcome"></a>
+					<a class="link_second-layer work-link_github" target="_blank"
+						href="https://github.com/RobinNicodemus/Angular-Quiz-App">...see project on github</a>
+				</div>
+				<div class="work-main-grid__item meetup">
+					<h2>Meetup Application</h2>
+					<p>This app was developed using a Test Driven Development cycle.
+						It allows the user to log into their meetup Account and see a list of upcoming events filtered
+						by the users location or a specified city.
+						Comes fully packed with Progressive Web App functionality.
+					</p>
+					<ul class="stack-list">
+						<li class="stack-item">React</li>
+						<li class="stack-item">PWA</li>
+						<li class="stack-item">recharts</li>
+						<li class="stack-item">TDD: jest-cucumber</li>
+						<li class="stack-item">AWS</li>
+						<li class="stack-item">TDD: enzyme</li>
+					</ul>
+					<a class="link_no_deco link_first-layer" target="_blank"
+						href="https://robinnicodemus.github.io/meetup/"></a>
+					<a class="link_second-layer work-link_github" target="_blank"
+						href="https://github.com/RobinNicodemus/meetup/">...see project on github</a>
+				</div>
+				<div class="work-main-grid__item">
+					<h2>Your Project?</h2>
+					<p>You have an amazing idea, but need someone to make it happen? Don't hesitate to let me know! I'd
+						love
+						to talk about the next big thing with you. Or the next ordinary thing, or the renewed old thing,
+						that you want to keep up to date. If you love it, i love it, and together we can make it
+						happen!.
+					</p>
+					<a href="mailto:nicodemusnepomuk@gmail.com" id="work-cta__pseudobutton"
+						class="call-to-action pseudobutton">Contact me :)</a>
+				</div>
+		</section>
+
+		<footer class="profile__footer">
+			<p>Find me on</p>
+			<div class="social-media-nav">
+				<a href="#" class="social-media-nav__item">
+					<img src="img/icon_github.svg" alt="See my projects on Github" />
+				</a>
+				<a href="#" class="social-media-nav__item">
+					<img src="img/icon_stackoverflow.svg" alt="See my profile on Stackoverflow" />
+				</a>
+				<a href="#" class="social-media-nav__item">
+					<img src="img/icon_linkedin.svg" alt="Find me on Linkedin" />
+				</a>
+			</div>
+		</footer>
+	</div>
+</body>
+
 </html>
