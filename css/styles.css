@@ -481,6 +481,12 @@ th {
     background-position-x: center;
 }
 
+.nativechat {
+	background-image: url("../img/screenshot_nativechat.png");
+	background-size: cover;
+    background-position-x: center;
+}
+
 .stack-list {
 	display: flex;
     flex-wrap: wrap;
