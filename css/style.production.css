@@ -181,9 +181,9 @@ footer {
 	font-size: var(--fontSizeStrong);
 	font-weight: var(--fontWeightSmall);
 	text-decoration: none;
-	-webkit-transition: font-size 1s ease-in-out, font-weight 1s ease-in-out;
-	-o-transition: font-size 1s ease-in-out, font-weight 1s ease-in-out;
-	transition: font-size 1s ease-in-out, font-weight 1s ease-in-out;
+	-webkit-transition: font-size 0.1s ease-out, font-weight 0.1s ease-out;
+	-o-transition: font-size 0.1s ease-out, font-weight 0.1s ease-out;
+	transition: font-size 0.1s ease-out, font-weight 0.1s ease-out;
 	-webkit-transition-delay: 0.1s;
 	     -o-transition-delay: 0.1s;
 	        transition-delay: 0.1s;
@@ -203,18 +203,18 @@ footer {
 	content: "< ";
 	color: var(--textColor);
  	opacity: 0;
- 	-webkit-transition: opacity 1s ease-in-out, color 1s ease-in-out;
- 	-o-transition: opacity 1s ease-in-out, color 1s ease-in-out;
- 	transition: opacity 1s ease-in-out, color 1s ease-in-out;
+ 	-webkit-transition: opacity 0.1s ease-in-out, color 0.1s ease-in-out;
+ 	-o-transition: opacity 0.1s ease-in-out, color 0.1s ease-in-out;
+ 	transition: opacity 0.1s ease-in-out, color 0.1s ease-in-out;
 }
 
 .navigation-list__item::after {
 	content: " >";
 	color: var(--textColor);
 	opacity: 0;
-	-webkit-transition: opacity 1s ease-in-out, color 1s ease-in-out;
-	-o-transition: opacity 1s ease-in-out, color 1s ease-in-out;
-	transition: opacity 1s ease-in-out, color 1s ease-in-out;
+	-webkit-transition: opacity 0.1s ease-in-out, color 0.1s ease-in-out;
+	-o-transition: opacity 0.1s ease-in-out, color 0.1s ease-in-out;
+	transition: opacity 0.1s ease-in-out, color 0.1s ease-in-out;
 }
 
 .navigation-list__item:hover::before,

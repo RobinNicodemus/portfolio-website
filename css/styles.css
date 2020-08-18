@@ -145,7 +145,7 @@ footer {
 	font-size: var(--fontSizeStrong);
 	font-weight: var(--fontWeightSmall);
 	text-decoration: none;
-	transition: font-size 1s ease-in-out, font-weight 1s ease-in-out;
+	transition: font-size 0.1s ease-out, font-weight 0.1s ease-out;
 	transition-delay: 0.1s;
 	letter-spacing: 0.2em;
 	text-transform: uppercase;
@@ -163,14 +163,14 @@ footer {
 	content: "< ";
 	color: var(--textColor);
  	opacity: 0;
- 	transition: opacity 1s ease-in-out, color 1s ease-in-out;
+ 	transition: opacity 0.1s ease-in-out, color 0.1s ease-in-out;
 }
 
 .navigation-list__item::after {
 	content: " >";
 	color: var(--textColor);
 	opacity: 0;
-	transition: opacity 1s ease-in-out, color 1s ease-in-out;
+	transition: opacity 0.1s ease-in-out, color 0.1s ease-in-out;
 }
 
 .navigation-list__item:hover::before,
